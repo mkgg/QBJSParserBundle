@@ -86,7 +86,7 @@ class FilterOperators
     }
 
     /**
-     * @param string
+     * @param string $operator
      *
      * @throws \InvalidArgumentException
      */

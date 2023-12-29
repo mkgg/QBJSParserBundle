@@ -7,7 +7,7 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class FLQBJSParserBundle extends Bundle
 {
-    public function getContainerExtension()
+    public function getContainerExtension(): FLQBJSParserExtension
     {
         if (null === $this->extension) {
             $this->extension = new FLQBJSParserExtension();

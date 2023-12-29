@@ -5,7 +5,7 @@ namespace FL\QBJSParserBundle\Event\Filter;
 use FL\QBJSParserBundle\Model\Filter\FilterInput;
 use FL\QBJSParserBundle\Model\Filter\FilterOperators;
 use FL\QBJSParserBundle\Model\Filter\FilterValueCollection;
-use Symfony\Component\EventDispatcher\Event;
+use Symfony\Contracts\EventDispatcher\Event;
 
 class FilterSetEvent extends Event
 {

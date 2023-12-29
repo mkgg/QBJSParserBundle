@@ -15,8 +15,8 @@ class ResultColumn
     private $machineName;
 
     /**
-     * @param $humanReadableName
-     * @param $machineName
+     * @param string $humanReadableName
+     * @param string $machineName
      */
     public function __construct(string $humanReadableName, string $machineName)
     {
